@@ -1,0 +1,8 @@
+@media (min-width:760px){
+  .grid{grid-template-columns:repeat(4,1fr)}
+  .cats{grid-template-columns:repeat(3,1fr)}
+  .pdp,.two{grid-template-columns:1fr 1fr;gap:50px}
+  .pdp .shot{border-radius:4px}
+}
+@media (min-width:1100px){.cats{grid-template-columns:repeat(6,1fr)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
